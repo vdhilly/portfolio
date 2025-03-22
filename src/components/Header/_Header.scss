@@ -1,0 +1,60 @@
+.nav-section {
+    border-bottom: 1px solid #7E7E7E;
+    margin-bottom: 3.5rem;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 1200;
+
+    background-color: $light-background;
+
+    .large-nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 0;
+        font-size: 20px;
+
+        .logo-container {
+            font-weight:700;
+            padding-right:1.125rem
+        }
+
+        .nav-list {
+            display:flex;
+            align-items:center;
+            gap:2rem;
+        }
+
+        .btn {
+            background-color: #3B3B38;
+            color: #FFF;
+            padding: 12px 27px;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px;
+            display: block;
+            font-family: "Open Sans", sans-serif;
+            text-decoration: none;
+            width: fit-content;
+            transition: 0.3s;
+            cursor: pointer;
+            font-weight: 500;
+
+            &:hover {
+                background-color: #3B3B38 !important;
+                color: #FFF;
+            }
+        }
+
+        .btn-outline {
+            background: none !important;
+            border: #3B3B38 solid 1.6px;
+            position: relative;
+            display: block;
+            overflow: hidden;
+            color: #3B3B38;
+        }
+    }
+}
