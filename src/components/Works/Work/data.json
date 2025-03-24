@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "name":"Booki",
+        "subtitle":"Intégration web avec HTML - CSS",
+        "image":"",
+        "skills":[
+            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+            "Implémenter une interface responsive avec HTML et CSS"
+        ]
+    }
+]
