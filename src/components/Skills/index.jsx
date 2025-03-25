@@ -4,6 +4,14 @@ import reactLogo from "../../assets/technologies/react.png"
 import cssLogo from "../../assets/technologies/css.png"
 import htmlLogo from "../../assets/technologies/html.png"
 import sassLogo from "../../assets/technologies/sass.png"
+import expressLogo from "../../assets/technologies/expressjs.png"
+import nodeLogo from "../../assets/technologies/nodejs.png"
+import phpLogo from "../../assets/technologies/php.png"
+import gitLogo from "../../assets/technologies/git.png"
+import githubLogo from "../../assets/technologies/github.png"
+import vscLogo from "../../assets/technologies/vsc.png"
+import wsLogo from "../../assets/technologies/ws.png"
+import npmLogo from "../../assets/technologies/npm.png"
 
 function Skills(){
 
@@ -32,13 +40,13 @@ function Skills(){
                         <span className="skills-header-subtitle">Backend</span>
                         <div className="skills-list">
                             <div class="icon-container">
-                                <img class="icon" src={htmlLogo} />
+                                <img class="icon" src={nodeLogo} />
                             </div>
                             <div class="icon-container">
-                                <img class="icon" src={cssLogo} />
+                                <img class="icon" src={expressLogo} />
                             </div>
                             <div class="icon-container">
-                                <img class="icon" src={sassLogo} />
+                                <img class="icon" src={phpLogo} />
                             </div>
                         </div>
                     </div>
@@ -67,10 +75,10 @@ function Skills(){
                         <span className="skills-header-subtitle">VCS</span>
                         <div className="skills-list">
                             <div class="icon-container">
-                                <img class="icon" src={jsLogo} />
+                                <img class="icon" src={gitLogo} />
                             </div>
                             <div class="icon-container">
-                                <img class="icon" src={jqueryLogo} />
+                                <img class="icon" src={githubLogo} />
                             </div>
                         </div>
                     </div>
@@ -92,13 +100,13 @@ function Skills(){
                         <span className="skills-header-subtitle">Environnement</span>
                         <div className="skills-list">
                             <div class="icon-container">
-                                <img class="icon" src={jsLogo} />
+                                <img class="icon" src={vscLogo} />
                             </div>
                             <div class="icon-container">
-                                <img class="icon" src={jqueryLogo} />
+                                <img class="icon" src={wsLogo} />
                             </div>
                             <div class="icon-container">
-                                <img class="icon" src={jqueryLogo} />
+                                <img class="icon" src={npmLogo} />
                             </div>
                         </div>
                     </div>

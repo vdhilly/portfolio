@@ -7,6 +7,7 @@ function Home() {
         <div className="main-home">
             <Banner />
             <Skills />
+            <Formation />
             <Works />
         </div>
     )
