@@ -35,7 +35,7 @@ ul {
   padding:0;
 }
 
-img, picture, video, canvas, svg {
+img, picture, video, canvas {
   display: block;
   max-width: 100%;
   width: 100%;
@@ -47,4 +47,23 @@ img, picture, video, canvas, svg {
 
 .padding-4 {
   padding:4px;
+}
+
+.grey-bg {
+  background: linear-gradient(150deg, rgb(230, 231, 232) 0px, rgb(204, 204, 204) 30%, rgb(187, 189, 191) 60%, rgb(230, 231, 232) 94%);
+}
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size:2.5rem;
+  border-left: 3px solid;
+  padding-left: 0.5rem;
+}
+
+.blue-title {
+  color: rgb(24, 38, 80);
+}
+
+.white-title {
+  color: white;
 }

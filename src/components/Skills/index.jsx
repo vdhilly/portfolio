@@ -12,12 +12,17 @@ import githubLogo from "../../assets/technologies/github.png"
 import vscLogo from "../../assets/technologies/vsc.png"
 import wsLogo from "../../assets/technologies/ws.png"
 import npmLogo from "../../assets/technologies/npm.png"
+import mongodbLogo from "../../assets/technologies/mongodb.webp"
+import mysqlLogo from "../../assets/technologies/mysql.png"
+import PSLogo from "../../assets/technologies/PS.png"
+import IDLogo from "../../assets/technologies/ID.png"
 
 function Skills(){
 
     return (
-        <div>
-            <div className="container skills-container">
+        <div className="container skills-container">
+            <h3 className="section-title blue-title">Compétences</h3>
+            <div className="">
                 <div className="skills-header">
                     <span className="skills-header-title">Développement</span>
                 </div>
@@ -25,42 +30,53 @@ function Skills(){
                     <div className="skills-frontend margin-5 padding-4">
                         <span className="skills-header-subtitle">Frontend</span>
                         <div className="skills-list">
-                            <div class="icon-container">
-                                <img class="icon" src={jsLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={jsLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={jqueryLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={jqueryLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={reactLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={reactLogo} alt=""/>
                             </div>
                         </div>
                     </div>
                     <div className="skills-backend margin-5 padding-4">
                         <span className="skills-header-subtitle">Backend</span>
                         <div className="skills-list">
-                            <div class="icon-container">
-                                <img class="icon" src={nodeLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={nodeLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={expressLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={expressLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={phpLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={phpLogo} alt=""/>
                             </div>
                         </div>
                     </div>
                     <div className="skills-integration margin-5 padding-4">
                         <span className="skills-header-subtitle">Intégration</span>
                         <div className="skills-list">
-                            <div class="icon-container">
-                                <img class="icon" src={htmlLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={htmlLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={cssLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={cssLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={sassLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={sassLogo} alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="skills-bdd margin-5 padding-4">
+                        <span className="skills-header-subtitle">Base de données</span>
+                        <div className="skills-list">
+                            <div className="icon-container">
+                                <img className="icon" src={mysqlLogo} alt=""/>
+                            </div>
+                            <div className="icon-container">
+                                <img className="icon" src={mongodbLogo} alt=""/>
                             </div>
                         </div>
                     </div>
@@ -74,39 +90,36 @@ function Skills(){
                     <div className="skills-vcs margin-5 paddin-4">
                         <span className="skills-header-subtitle">VCS</span>
                         <div className="skills-list">
-                            <div class="icon-container">
-                                <img class="icon" src={gitLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={gitLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={githubLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={githubLogo} alt=""/>
                             </div>
                         </div>
                     </div>
                     <div className="skills-conception margin-5 paddin-4">
                         <span className="skills-header-subtitle">Conception</span>
                         <div className="skills-list">
-                            <div class="icon-container">
-                                <img class="icon" src={jsLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={PSLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={jqueryLogo} />
-                            </div>
-                            <div class="icon-container">
-                                <img class="icon" src={jqueryLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={IDLogo} alt=""/>
                             </div>
                         </div>
                     </div>
                     <div className="skills-environment margin-5 paddin-4">
                         <span className="skills-header-subtitle">Environnement</span>
                         <div className="skills-list">
-                            <div class="icon-container">
-                                <img class="icon" src={vscLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={vscLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={wsLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={wsLogo} alt=""/>
                             </div>
-                            <div class="icon-container">
-                                <img class="icon" src={npmLogo} />
+                            <div className="icon-container">
+                                <img className="icon" src={npmLogo} alt=""/>
                             </div>
                         </div>
                     </div>

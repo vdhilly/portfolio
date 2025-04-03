@@ -1,9 +1,53 @@
 [
     {
         "id":1,
+        "name":"Cités Royales - Gamepark",
+        "subtitle":"Développement d'un jeu de société sur Gamepark en Typescript et React",
+        "image":"cites-royales.png",
+        "skills":[],
+        "link":"https://game-park.com/fr/board-games/cites-royales",
+        "github":"https://github.com/gamepark/cites-royales"
+    },
+    {
+        "id":2,
+        "name":"Shaan Renaissance - FoundryVTT",
+        "subtitle":"Développement d'un système de jeu de rôle sur FoundryVTT en Javascript",
+        "image":"shaan-foundry.png",
+        "skills":[],
+        "link":"https://foundryvtt.com/packages/shaanrenaissance",
+        "github":"https://github.com/vdhilly/shaanrenaissance"
+    },
+    {
+        "id":3,
+        "name":"Shaan World - Créateur de Personnage",
+        "subtitle":"Développement d'un créateur de personnage de jeu de rôle en HTML, CSS et Javascript",
+        "image":"shaan-site.png",
+        "skills":[],
+        "link":"https://www.shaan-world.com/creation-de-personnage/"
+    },
+    {
+        "id":4,
         "name":"Booki",
         "subtitle":"Intégration web avec HTML - CSS",
-        "image":"",
+        "image":"booki.png",
+        "skills":[],
+        "link":""
+    },
+    {
+        "id":5,
+        "name":"Kasa",
+        "subtitle":"Intégration web avec React et Sass",
+        "image":"kasa.png",
+        "skills":[
+            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+            "Implémenter une interface responsive avec HTML et CSS"
+        ]
+    },
+    {
+        "id":6,
+        "name":"Booki",
+        "subtitle":"Intégration web avec HTML - CSS",
+        "image":"booki.png",
         "skills":[
             "Intégrer du contenu conformément à une maquette avec HTML et CSS",
             "Implémenter une interface responsive avec HTML et CSS"

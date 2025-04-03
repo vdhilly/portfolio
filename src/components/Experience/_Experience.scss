@@ -1,0 +1,22 @@
+.job {
+    display:flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+    
+    a {
+        display: flex;
+        place-content: center;
+        place-items: center;
+        color:#007bff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+        
+        svg {
+            width:25px;
+            align-content: center;
+        }
+    }
+}

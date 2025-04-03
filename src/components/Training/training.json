@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Développeur Web",
+        "qualification":"Développeur Web (RNCP Niv. 5)",
+        "school": "OpenClassrooms - À distance",
+        "description":"Formation technique complète qui enseigne la création de sites web fluides, dynamiques et responsive à travers des projets professionnalisants",
+        "date":"En cours",
+        "details":{
+            "subdescription":"Accompagné hebdomadairement par un mentor, j'ai appris au cours des 12 mois de formation à :",
+            "list": [
+                "Intégrer tous les éléments d'une maquette graphique en HTML5 et CSS",
+                "Appliquer les standards du web et les normes en vigueur",
+                "Construire un site web fluide s'adaptant à tout type d'écran (desktop, smartphone et tablette)",
+                "Améliorer le référencement naturel en utilisant les balises selon leur sémantique",
+                "Faire réagir la page web en fonction des actions de l'utilisateur en JavaScript",
+                "Se connecter à un service web pour exploiter des données tierces (API)",
+                "Gérer les comptes utilisateurs",
+                "Concevoir un site maintenable grâce à la gestion des erreurs et exceptions"
+            ]
+        }
+    }
+]
