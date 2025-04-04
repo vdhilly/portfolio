@@ -16,7 +16,7 @@
     }
 
     img {
-        max-height:210px;
+        max-height:166px;
         object-fit: cover;
         object-position:top;
         border-radius:10px;
@@ -103,6 +103,44 @@
             max-width: 600px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
             position: relative;
+            font-family: 'Poppins', 'sans-serif';
+
+            .modal-title {
+                line-height: 1;
+            }
+            
+            .modal-subtitle {
+                margin-bottom:10px;
+            }
+
+            .work-modal-technologies {
+                display:flex;
+                gap:5px;
+                margin-bottom:10px;
+
+                li {
+                    background: hsla(0, 1%, 30%, 0.250);
+                    font-weight: 600;
+                    padding: 0px 8px;
+                    border-radius: 4px;
+                }
+            }
+
+            .work-modal-skills {
+                list-style:inside;
+                text-align:start;
+            }
+
+            img {
+                max-height:unset;
+                margin:10px auto;
+            }
+
+            .modale-github-logo {
+                width:50px;
+                display:flex;
+                justify-self:center;
+            }
 
             .close-button {
                 position: absolute;

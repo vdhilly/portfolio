@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import gitHubLogo from "../../../assets/technologies/github.png"
 
 function Work({ work }) {
-    const { name, subtitle, image, skills, description } = work;
+    const { name, subtitle, image, skills, technologies, github } = work;
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
@@ -26,14 +27,22 @@ function Work({ work }) {
                         <button className="close-button" onClick={() => setIsModalOpen(false)}>
                             &times;
                         </button>
-                        <h2>{name}</h2>
-                        <p>{subtitle}</p>
-                        <p>{description}</p>
-                        <ul>
+                        <h2 className="modal-title">{name}</h2>
+                        <p className="modal-subtitle">{subtitle}</p>
+                        <ul className="work-modal-technologies">
+                            {technologies.map((technology, index) => (
+                                <li key={index}>{technology}</li>
+                            ))}
+                        </ul>
+                        <ul className="work-modal-skills">
                             {skills.map((skill, index) => (
                                 <li key={index}>{skill}</li>
                             ))}
                         </ul>
+                        <img src={`/assets/works/${image}`} alt={name} />
+                        {github ? (
+                            <a className="modale-github-logo" href={github} target="_blank"><img src={gitHubLogo} alt="github"/></a>
+                        ) : null}
                     </div>
                 </div>
             )}

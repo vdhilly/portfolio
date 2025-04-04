@@ -2,28 +2,36 @@
     {
         "id":1,
         "name":"Cités Royales - Gamepark",
-        "subtitle":"Développement d'un jeu de société sur Gamepark en Typescript et React",
+        "subtitle":"Développement d'un jeu de société sur Gamepark",
         "image":"cites-royales.png",
-        "skills":[],
+        "skills":[
+            "Modélisation de la logique d’un jeu multijoueur (règles, états, tours, actions)",
+            "Structuration et organisation d’un projet complexe avec architecture modulaire en TypeScript",
+            "Gestion de l’état du jeu en temps réel et synchronisation entre joueurs"
+        ],
         "link":"https://game-park.com/fr/board-games/cites-royales",
-        "github":"https://github.com/gamepark/cites-royales"
+        "github":"https://github.com/gamepark/cites-royales",
+        "technologies":["React", "Typescript", "Gamepark"]
     },
     {
         "id":2,
         "name":"Shaan Renaissance - FoundryVTT",
-        "subtitle":"Développement d'un système de jeu de rôle sur FoundryVTT en Javascript",
+        "subtitle":"Développement d'un système de jeu de rôle sur FoundryVTT",
         "image":"shaan-foundry.png",
         "skills":[],
         "link":"https://foundryvtt.com/packages/shaanrenaissance",
-        "github":"https://github.com/vdhilly/shaanrenaissance"
+        "github":"https://github.com/vdhilly/shaanrenaissance",
+        "technologies":["HTML", "Handlebars", "CSS", "Javascript"]
+
     },
     {
         "id":3,
         "name":"Shaan World - Créateur de Personnage",
-        "subtitle":"Développement d'un créateur de personnage de jeu de rôle en HTML, CSS et Javascript",
+        "subtitle":"Développement d'un créateur de personnage de jeu de rôle",
         "image":"shaan-site.png",
         "skills":[],
-        "link":"https://www.shaan-world.com/creation-de-personnage/"
+        "link":"https://www.shaan-world.com/creation-de-personnage/",
+        "technologies":["HTML", "CSS", "PHP", "Javascript"]
     },
     {
         "id":4,
@@ -41,7 +49,8 @@
         "skills":[
             "Intégrer du contenu conformément à une maquette avec HTML et CSS",
             "Implémenter une interface responsive avec HTML et CSS"
-        ]
+        ],
+        "technologies":["React", "Sass"]
     },
     {
         "id":6,
@@ -51,6 +60,7 @@
         "skills":[
             "Intégrer du contenu conformément à une maquette avec HTML et CSS",
             "Implémenter une interface responsive avec HTML et CSS"
-        ]
+        ],
+        "technologies":["HTML", "CSS"]
     }
 ]
