@@ -7,7 +7,7 @@ function Work({ work }) {
 
     return (
         <div className="project-item">
-            <img src={`/assets/works/${image}`} alt={name} />
+            <img src={`./assets/works/${image}`} alt={name} />
             <div className="project-resume">
                 <h4 className="project-title">
                     {name.split("-").map((part, index) => (
@@ -39,7 +39,7 @@ function Work({ work }) {
                                 <li key={index}>{skill}</li>
                             ))}
                         </ul>
-                        <img src={`https://vdhilly.github.io/portfolio/assets/works/${image}`} alt={name} />
+                        <img src={`./assets/works/${image}`} alt={name} />
                         {github ? (
                             <a className="modale-github-logo" href={github} target="_blank"><img src={gitHubLogo} alt="github"/></a>
                         ) : null}
