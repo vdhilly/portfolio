@@ -32,35 +32,5 @@
         "skills":[],
         "link":"https://www.shaan-world.com/creation-de-personnage/",
         "technologies":["HTML", "CSS", "PHP", "Javascript"]
-    },
-    {
-        "id":4,
-        "name":"Booki",
-        "subtitle":"Intégration web avec HTML - CSS",
-        "image":"booki.png",
-        "skills":[],
-        "link":""
-    },
-    {
-        "id":5,
-        "name":"Kasa",
-        "subtitle":"Intégration web avec React et Sass",
-        "image":"kasa.png",
-        "skills":[
-            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-            "Implémenter une interface responsive avec HTML et CSS"
-        ],
-        "technologies":["React", "Sass"]
-    },
-    {
-        "id":6,
-        "name":"Booki",
-        "subtitle":"Intégration web avec HTML - CSS",
-        "image":"booki.png",
-        "skills":[
-            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
-            "Implémenter une interface responsive avec HTML et CSS"
-        ],
-        "technologies":["HTML", "CSS"]
     }
 ]
