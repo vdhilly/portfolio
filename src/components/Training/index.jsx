@@ -14,7 +14,6 @@ function Formation(){
                                 <span className="title" href={train.link}>{train.name}</span>
                                 <p className="subtitle"><span><FontAwesomeIcon icon={faGraduationCap}/>{train.qualification}</span><span><FontAwesomeIcon icon={faMapMarkerAlt}/>{train.school}</span></p>
                                 <p className="description">{train.description}</p>
-                                <button type="button"></button>
                             </div>
                         )
                     })}

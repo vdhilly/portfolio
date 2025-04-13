@@ -54,6 +54,12 @@
                     }
                 }
             }
+
+            @media screen and (max-width:570px) {
+                .training {
+                    width:80%;
+                }
+            }
         }
     }
 }

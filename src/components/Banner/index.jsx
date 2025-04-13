@@ -1,19 +1,13 @@
 function Banner(){
     return (
-        <div className="banner">
-            <div className="container banner-container">
-                <div className="illustration-banner">
-                    <img alt=""/>
-                </div>
-                <div className="title-container">
-                    <h1 className="banner-title">
-                        <span className="title-span">Développeur Full-Stack</span>
-                    </h1>
-                </div>
+        <section id="banner">
+            <div className="intro-card">
+                <h1 className="intro-title">Valentin Dhilly</h1>
+                <hr className="card-divider"/>
+                <h2 className="intro-subtitle">Développeur Web Junior</h2>
             </div>
-        </div>
-    )
-    
+        </section>
+    ) 
 }
 
 export default Banner
