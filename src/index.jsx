@@ -13,8 +13,7 @@ root.render(
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<Error />} />
+          <Route path="/portfolio" element={<Home />} />
         </Routes>
       </main>
     </Router>
