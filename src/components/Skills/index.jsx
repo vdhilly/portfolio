@@ -17,116 +17,71 @@ import mysqlLogo from "../../assets/technologies/mysql.png"
 import PSLogo from "../../assets/technologies/PS.png"
 import IDLogo from "../../assets/technologies/ID.png"
 
-function Skills(){
+const skillsData = {
+    Développement: {
+        Frontend: [
+            { src: jsLogo, alt: "javascript" },
+            { src: jqueryLogo, alt: "jquery" },
+            { src: reactLogo, alt: "react" },
+        ],
+        Backend: [
+            { src: nodeLogo, alt: "nodejs" },
+            { src: expressLogo, alt: "expressjs" },
+            { src: phpLogo, alt: "php" },
+        ],
+        "Intégration": [
+            { src: htmlLogo, alt: "html" },
+            { src: cssLogo, alt: "css" },
+            { src: sassLogo, alt: "sass" },
+        ],
+        "Base de données": [
+            { src: mysqlLogo, alt: "mysql" },
+            { src: mongodbLogo, alt: "mongodb" },
+        ],
+    },
+    Outils: {
+        VCS: [
+            { src: gitLogo, alt: "git" },
+            { src: githubLogo, alt: "github" },
+        ],
+        Conception: [
+            { src: PSLogo, alt: "photoshop" },
+            { src: IDLogo, alt: "indesign" },
+        ],
+        Environnement: [
+            { src: vscLogo, alt: "vscode" },
+            { src: wsLogo, alt: "wampserver" },
+            { src: npmLogo, alt: "npm" },
+        ],
+    },
+};
 
+function Skills() {
     return (
         <div className="container skills-container">
-            <h3 className="section-title blue-title">Compétences</h3>
-            <div className="">
-                <div className="skills-header">
-                    <span className="skills-header-title">Développement</span>
-                </div>
-                <div className="skills-lists-container">
-                    <div className="skills-frontend margin-5 padding-4">
-                        <span className="skills-header-subtitle">Frontend</span>
-                        <div className="skills-list">
-                            <div className="icon-container">
-                                <img className="icon" src={jsLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={jqueryLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={reactLogo} alt=""/>
-                            </div>
-                        </div>
+            {Object.entries(skillsData).map(([sectionTitle, categories]) => (
+                <div key={sectionTitle}>
+                    <div className="skills-header">
+                        <span className="skills-header-title">{sectionTitle}</span>
                     </div>
-                    <div className="skills-backend margin-5 padding-4">
-                        <span className="skills-header-subtitle">Backend</span>
-                        <div className="skills-list">
-                            <div className="icon-container">
-                                <img className="icon" src={nodeLogo} alt=""/>
+                    <div className="skills-lists-container">
+                        {Object.entries(categories).map(([categoryTitle, skills]) => (
+                            <div key={categoryTitle} className={`margin-5 padding-4 skills-${categoryTitle.toLowerCase().replace(/ /g, '-')}`}>
+                                <span className="skills-header-subtitle">{categoryTitle}</span>
+                                <div className="skills-list">
+                                    {skills.map(({ src, alt }) => (
+                                        <div key={alt} className="icon-container" title={alt}>
+                                            <img className="icon" src={src} alt={alt}/>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
-                            <div className="icon-container">
-                                <img className="icon" src={expressLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={phpLogo} alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="skills-integration margin-5 padding-4">
-                        <span className="skills-header-subtitle">Intégration</span>
-                        <div className="skills-list">
-                            <div className="icon-container">
-                                <img className="icon" src={htmlLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={cssLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={sassLogo} alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="skills-bdd margin-5 padding-4">
-                        <span className="skills-header-subtitle">Base de données</span>
-                        <div className="skills-list">
-                            <div className="icon-container">
-                                <img className="icon" src={mysqlLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={mongodbLogo} alt=""/>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
-            </div>
-            <div className="container skills-container">
-                <div className="skills-header">
-                    <span className="skills-header-title">Outils</span>
-                </div>
-                <div className="skills-lists-container">
-                    <div className="skills-vcs margin-5 paddin-4">
-                        <span className="skills-header-subtitle">VCS</span>
-                        <div className="skills-list">
-                            <div className="icon-container">
-                                <img className="icon" src={gitLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={githubLogo} alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="skills-conception margin-5 paddin-4">
-                        <span className="skills-header-subtitle">Conception</span>
-                        <div className="skills-list">
-                            <div className="icon-container">
-                                <img className="icon" src={PSLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={IDLogo} alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="skills-environment margin-5 paddin-4">
-                        <span className="skills-header-subtitle">Environnement</span>
-                        <div className="skills-list">
-                            <div className="icon-container">
-                                <img className="icon" src={vscLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={wsLogo} alt=""/>
-                            </div>
-                            <div className="icon-container">
-                                <img className="icon" src={npmLogo} alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            ))}
         </div>
-    )
+    );
 }
 
-export default Skills
+export default Skills;
