@@ -5,6 +5,10 @@
     text-align:center;
     gap:20px;
 
+    .section-title {
+        margin-bottom:10px;
+    }
+
     .job {
         display:flex;
         flex-direction: column;
